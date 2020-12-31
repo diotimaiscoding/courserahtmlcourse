@@ -11,22 +11,23 @@ h1{
 }
 section{
     background-color:rgba(248, 0, 174, 0.26);
-    margin: 10px;
-    border: 1px black;
+    border: 1px dashed black;
+    padding: 0px;
     
 }
-
+div{
+    padding: 20px;
+    border:none;
+}
 @media (min-width:992px){
     .col-lg-4{
         float:left;
-        border: 1px groove grey;
         width: 33.3%
     }
 }
 @media (min-width:768px) and (max-width:991px){
     .col-md-6, .col-md-12{
         float: left;
-        border: 1px groove grey;
     }
     .col-md-6{
         width: 50%;
@@ -38,23 +39,21 @@ section{
 @media (max-width:767px){
     col-sm-12{
         float: center;
-        border: 1px groove grey;
     }
     .col-sm-12{
         width: 100%
     }
 }
 #header1, #header2, #header3 {
-    position: relative;
-    width: 70px;
-    float: right;
-    border: 1px rgb(0, 0, 0);
+    text-align: center;
+    float: right ;
+    border: 1px dashed rgb(0, 0, 0);
     background-color:rgba(244, 165, 96, 0.541);
 }
 .row{
     font-style: normal;
     font-family:'Franklin Gothic Medium', 'Times New Roman', Times, Arial, sans-serif;
     margin : 10px;
-    padding:10px;
-    width: 100%
+    padding: 10px;
+    width: 90%
 }
