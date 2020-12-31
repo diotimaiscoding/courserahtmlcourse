@@ -9,14 +9,14 @@ section{
     background-color:rgba(248, 0, 174, 0.26)
 }
 
-@media (min-width:1200px){
+@media (min-width:992px){
     .col-lg-4{
         float:left;
         border: 3px groove grey;
         width: 33.3%
     }
 }
-@media (min-width:992px) and (max-width:1199px){
+@media (min-width:768px) and (max-width:991px){
     .col-md-6, .col-md-12{
         float: left;
         border: 2px groove grey;
@@ -28,7 +28,7 @@ section{
         width: 100%
     }
 }
-@media (max-width:991px){
+@media (max-width:767px){
     col-sm-1, col-sm-2, col-sm-3, col-sm-4,col-sm-5,col-sm-6,col-sm-7,col-sm-8,col-sm-9,col-sm-10,col-sm-11,.col-sm-12{
         float: center;
         border: 1px groove grey;
@@ -73,4 +73,12 @@ section{
 p{
     position: relative;
     float: right;
+    border: 1px dashed red;
+    background-color:rgba(244, 165, 96, 0.541);
+}
+.row{
+    font-style: normal;
+    font-family:'Franklin Gothic Medium', 'Times New Roman', Times, Arial, sans-serif;
+    margin : 20px;
+    padding: 5px;
 }
