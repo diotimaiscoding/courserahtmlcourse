@@ -48,7 +48,7 @@ div{
 section > h3 {
     text-align: center;
     width:80px;
-    float: right ;
+    float: right;
     border: 1px dotted rgb(0, 0, 0);
     background-color:rgba(244, 165, 96, 0.541);
 }
