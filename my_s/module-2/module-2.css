@@ -13,6 +13,7 @@ section{
     background-color:rgba(248, 0, 174, 0.26);
     margin: auto;
     padding:2px;
+    border: 1px black;
     
 }
 
@@ -82,7 +83,7 @@ section{
     top: -17px;
     width: 70px;
     float: right;
-    border: 1px dashed red;
+    border: 1px rgb(0, 0, 0);
     background-color:rgba(244, 165, 96, 0.541);
 }
 .row{
