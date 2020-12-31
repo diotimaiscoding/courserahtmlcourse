@@ -2,3 +2,33 @@ body{
     background-color: rgba(0, 0, 0, 0.301);
     color: rgba(255, 255, 255, 0.541)
 }
+section{
+    background-color:rgba(248, 0, 174, 0.26)
+}
+
+@media (min-width=1200px){
+    .col-lg-4{
+        float:left;
+        border: 3px groove grey;
+        width: 33.3%
+    }
+}
+@media (min-width=992) and (max-width=1199){
+    .col-md-6, .col-md-12{
+        float: left;
+        border: 2px groove grey;
+    }
+    .col-md-6{
+        width: 50%;
+    }
+    .col-md-12{
+        width: 100%
+    }
+}
+@media (max-width=991){
+    .col-sm-12{
+        float: center;
+        border: 1px groove grey;
+        width: 100%
+    }
+}
