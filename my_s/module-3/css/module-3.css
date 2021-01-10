@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: cadetblue;
+}
+header #header-nav{
+    background-color: rgba(0, 0, 0, 0.479);
+    border-radius: 0;
+    border: 0px;
+}
+.navbar-brand{
+    padding-top: 25px;
+}
+.navbar-brand h1 {
+    font-family: 'Times New Roman', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #eeff009f;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0px;
+    line-height: .75;
+}
+    .navbar-brand a:hover, .navbar-brand a:focus {
+        text-decoration: none;
+    }
+    #nav-collapsable-list {
+        margin-top: 10px;
+  }
+  #nav-collapsable-list a {
+    color: rgb(102, 163, 165);
+    text-align: center;
+  }
+  #nav-collapsable-list a:hover {
+    background: #E7E7E7;
+  }
+  #nav-collapsable-list a span {
+    font-size: 1.8em;
+  }
+  .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid cadetblue;
+  }
+  .navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+  }
+.container .row section{
+    background: rgba(255, 0, 0, 0.493);
+    height: 100px;
+    box-shadow: 1px 1px black;
+    margin: 10px auto 10px;
+    text-align: center;
+    font-size: large;
+}
+.container h3{
+    text-align: center;
+    font-size: 1.5em;
+    color: rgba(119, 136, 153);
+}
+.container #back-to-top-a{
+    width:100px;
+}
+a #back-to-top{
+    margin: 10px auto 10px;
+    float: center;
+    text-align: center;
+    color: rgba(119, 136, 153);
+    background: rgba(128, 0, 0, 0.507);
+    text-decoration-style: none;
+    width:100px;
+    box-shadow: 1px 1px black;
+}
+#back-to-top:hover, #back-to-top:active{
+    background-color: rgba(250, 240, 230, 0.705);
+    text-decoration: solid;
+}
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+    /* Header */
+    .navbar-brand h1 {
+      padding-top: 5px;
+      font-size: 6vw;
+    }
+}
