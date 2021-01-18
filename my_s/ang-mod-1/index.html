@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en" ng-app="LunchCheck" class="ng-scope">
+  <head>
+    <title>Lunch Checker</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="angular.min.js"></script>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+      .message { font-size: 1.3em; font-weight: bold; }
+      body{color:black;}
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+  </head>
+<body>
+   <div class="container ng-scope" ng-controller= "MyController">
+     <h1>Lunch Checker</h1>
+
+         <div class="form-group">
+             <input id="lunch-menu" type="text"
+             placeholder="list comma separated dishes you usually have for lunch"
+             class="form-control ng-valid ng-dirty ng-valid-parse ng-touched ng-empty" ng-model= "message" >
+         </div>
+         <div class="form-group">
+             <button class="btn btn-default"  ng-click="Check()">Check If Too Much</button>
+         </div>
+         <div class="form-group message ng-binding">
+           {{answer}}
+         </div>
+   </div>
+
+</body>
+</html>
